@@ -1,21 +1,56 @@
-# Password Generator Magic
-## Challenge for Week 3 - Create a random password generator using JavaScript
 
-This week we were asked to code a random password generator using JavaScript. We were given a pre-made HTML template with a table featuring a read only text field and a generate button that initially had no function when clicked. The ojective was to use the existing HTML and the preset identifiers to assign functionality to the UI using JavaScript methods we had learned the previous week.
+  ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=green)
+  # Password Generator
+  
+  ## Table of Contents
+  * [Description](#description)
+  * [Technologies](#technologies)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Guidelines](#guidelines)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
+---
 
-
-When the use clicked on "Generate Password" the application was to:
-
-
-* Prompt the user to define the length of the desired password(8-128 characters)
-* Confirm whether the user wanted uppercase, lowercase, symbols and/or numbers
-* Alert the user when the input was invalid(<8 or >128, empty, or undefined)
-* Generate the password using the selected critera
-* Print the password to the text field
-
-This was done using the prompt, confirm, alert and Math functions inherit in JavaScript. I also added a button that allowed the user to copy the generated password to their clipboard, and edited the CSS file to change the aesthetics of the application and be responsive when viewed on different devices.
-
-You can view the deployed appication [here](https://mleftwich.github.io/PasswordGenMagic/)
+  ## Description
+  Very simple secure password generator created using JavaScript. User clicks on "generate password" button and is then prompted to define parameters for desired password - min/max length, uppercase/lowercase, and the inclusion of numbers and/or symbols. Once generated user can click on "copy" button that copies password to clipboard
 
 ![screenshot](./screenshot.png)
+
+  ## Technologies
+   * HTML
+   * Water.css
+   * JavaScript
+   
+  ## Installation
+   No installation required, visit the URL to use.
+
+
+  ## Usage
+   Application can be used [here](https://mleftwich.github.io/PasswordGenMagic/).
+
+
+  ## Contributing
+   Reach out through the email listed below.
+
+
+  ## Guidelines
+   Consider using a password manager to store generated passwords.
+
+
+  ## Tests
+   Tests conducted in development.
+
+
+  ## License
+   Licensed under [MIT](https://opensource.org/licenses/MIT) 
+
+   ---
+
+  ## Questions
+   For any questions you can find me at [GitHub](https://github.com/mleftwich) or email me at [mleftwich@live.com](mailto:mleftwich@live.com) 
+
+
 
